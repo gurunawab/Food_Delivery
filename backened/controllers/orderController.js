@@ -8,7 +8,7 @@ import userModel from "../models/userModel.js";
 //placing user order for frontened
 const placeOrder = async (req,res) =>{
 
-    const frontened_url = "http://localhost:5173"
+    const frontened_url = "https://food-delivery-frontened.onrender.com"
 
    try {
        const newOrder = new orderModel({
